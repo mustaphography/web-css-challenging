@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a7r iv</title>
+    <link rel="icon" href="assets/pics/sony a7r iv.jpg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="a7r.css" />
+  </head>
+  <body>
+    <ul>
+      <li style="float: left;">
+        <a class="active" href="#about">
+          <img class="sidebar" src="assets/pics/sidebar.png" />
+        </a>
+      </li>
+      <li><a href="homepage.html">Home</a></li>
+      <div class="dropdown">
+        <li class="dropbtn"><a href="#news">Products</a></li>
+        <div class="dropdown-content">
+          <a href="rx100.html">rx100</a>
+          <a href="a7r iv.html">a7r iv</a>
+          <a href="a6600.html">a6600</a>
+        </div>
+      </div>
+      <li>
+        <a href="compare.html">compare products</a>
+      </li>
+      <li style="float: right;">
+        <form class="navbar-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="search" />
+          </div>
+          <button style="float: right;" type="submit" class="btn btn-danger">
+            Submit
+          </button>
+        </form>
+      </li>
+    </ul>
+    <h1>Sony A7R IV</h1>
+
+    <div class="slideshow">
+      <img
+        class="mySlides"
+        src="assets/pics/a7r finale 123456789.jpg"
+        style="width: 100%;"
+      />
+      <img
+        class="mySlides"
+        src="assets/pics/sony-a7r-iv-header1-1920x1016 123456.webp"
+        style="width: 100%;"
+      />
+      <img class="mySlides" src="assets/pics/a7r m4.jpg" style="width: 100%;" />
+      <img class="mySlides" src="assets/pics/a7r iv.jpg" style="width: 100%;" />
+      <img
+        class="mySlides"
+        src="assets/pics/sony a7r iv.jpg"
+        style="width: 100%;"
+      />
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">
+        &#10094;
+      </button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">
+        &#10095;
+      </button>
+    </div>
+    <a
+      target="_blank"
+      href="https://www.bhphotovideo.com/c/product/1494679-REG/sony_ilce7rm4_b_alpha_a7r_iv_mirrorless.html"
+    >
+      <h2>Buy Now!</h2>
+    </a>
+    <p>
+      The Sony a7R IV is the company's fourth generation, high-resolution
+      full-frame mirrorless camera and is built around a BSI-CMOS sensor that
+      outputs 60.2MP images. Relative to previous generations, it promises more
+      robust build quality, refined controls, the company's latest autofocus
+      implementation, and more. Despite its high resolution, it can shoot at up
+      to 10 frames per second with full autofocus and shoot 4K video either from
+      the full width of its sensor or from an APS-C/Super 35 crop. It also gains
+      a 16-shot high-resolution mode that can be used to generate 240MP images
+      of static scenes.
+    </p>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+  <footer>
+    made with love by a camera nerd!
+  </footer>
+</html>

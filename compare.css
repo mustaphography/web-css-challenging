@@ -1,0 +1,109 @@
+body {
+  background-color: #5c9999;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #333;
+  text-decoration: none;
+}
+@font-face {
+  font-family: header;
+  src: url("assets/fonts/Espoir.ttf");
+}
+h1 {
+  margin: auto;
+  font-family: header;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: darkslategray;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 56px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #e63946;
+  text-decoration: none;
+}
+.navbar-form {
+  padding: 1px;
+}
+
+.form-group {
+  max-width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 56px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #111;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.sidebar {
+  width: 28px;
+  height: auto;
+}
+footer {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: whitesmoke;
+}
+table {
+  margin-top: 5%;
+}
+.img1 {
+  width: 25%;
+}
+tr {
+  font-size: 24px;
+  text-align: center;
+}
